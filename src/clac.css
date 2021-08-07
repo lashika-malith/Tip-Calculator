@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+      transform: rotate(-90deg);
+
+}
+.calc-box{
+    display: flex;
+    background-color: white  ;
+    width: 60vw;
+    height: 200%;
+    border-radius: 20px;
+    margin-top: 70px;
+    -webkit-box-align: center;
+    gap: 2px;
+    font-family: 'Space Mono', monospace !important;
+}
+
+
+.Input-side{
+ 
+    flex: 1 1 0%
+}
+
+.result-side{
+    flex: 1 1 0%;
+}
+.Logo{
+   margin-top: 150px;
+}
+
+#Label{
+    transform: translate(5px, -30px) scale(0.8) ;
+    font-size: 24px;
+    font-weight: 700 !important;
+    font-family: 'Space Mono', monospace !important;
+
+}
+
+
+#outlined-adornment-amount{
+    background-color:   hsl(189, 41%, 97%);
+    border-radius: 4px;
+    text-align: right;
+    font-family: 'Space Mono', monospace !important;
+    font-weight: 700 !important;
+    font-size: 1.5em;
+    outline: none;
+
+
+}
+
+.collector{
+    width: 90%;
+    margin-left: 50px;
+}
+
+.MuiOutlinedInput-adornedStart {
+    background-color:   hsl(189, 41%, 97%);
+    
+
+}
+
+.MuiFormControl-fullWidth{
+    width: 100% !important;
+}
+
+
+.Mui-focused{
+    color:   hsl(183, 100%, 15%)!important;
+
+}
+
+.MuiOutlinedInput-root.Mui-focused
+.MuiOutlinedInput-notchedOutline{
+     border-color: hsl(172, 67%, 45%) !important;
+     border-width: 3px !important;
+   
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.Tip-selector .MuiFormControl-fullWidth{
+    width: 30% !important;
+}
+
+.Tip-selector{
+    justify-content: space-between;
+}
+
+.MuiToggleButton-root{
+    background-color:   hsl(183, 100%, 15%)!important;
+    color: white !important;
+    font-family: 'Space Mono', monospace !important;
+    font-size: 0.7em !important;
+    padding: 15px 40px !important;
+    height: 50px !important;
+    border-radius: 5px !important;
+    margin-top: 20px !important;
+    
+
+}
+
+
+.MuiToggleButtonGroup-root{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-around !important;
+}
+
+#low{
+    width: 42.1px;
+}
+
+
+.MuiInputBase-input{
+    text-align: right;
+}
+
+.Mui-selected{
+    background-color: hsl(185, 41%, 84%) !important ;
+     color:   hsl(183, 100%, 15%)!important;
+
+}
+
+#custom-tiprate{
+    background-color: white !important;
+    border: none;
+    padding: 0 !important;
+    align-items: center ;
+}
+
+
+.Tips{
+    width: 105% !important;
+}
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border: 3px solid !important;
+    border-color: hsl(172, 67%, 45%) !important;
+
+}
+
+.MuiOutlinedInput-notchedOutline {
+    border: 1px solid !important;
+    border-color: white !important;
+}
+ 

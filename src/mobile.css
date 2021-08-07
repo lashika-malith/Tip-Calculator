@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1050px) {
+
+    .calc-box{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        
+    }
+
+ 
+
+    .result-side{
+        flex: 1 1 80% !important;
+    }
+
+    .Tip-selcetor{
+        
+    }
+
+    .collector{
+        margin: 0 !important;
+        text-align: center;
+    }
+    
+    #Label{
+        font-size: 3.5vw !important;
+
+    }
+
+    .results{
+        font-size: 5vw !important;
+    }
+
+
+}
+
